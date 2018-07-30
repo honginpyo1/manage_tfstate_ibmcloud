@@ -1,5 +1,7 @@
 # A serverless backend for Terraform
 
+* This repo is customized from https://github.com/l2fprod/serverless-terraform-backend
+
 Terraform offers several [backend types](https://www.terraform.io/docs/backends/types/index.html). One of them is the [**http**](https://www.terraform.io/docs/backends/types/http.html) backend which stores Terraform states using a REST client.
 
 This project provides an implementation of the REST backend using serverless [IBM Cloud Functions](https://console.bluemix.net/openwhisk) and [IBM Cloud Object Storage](https://console.bluemix.net/catalog/services/cloud-object-storage) with **optional [state locking](https://www.terraform.io/docs/state/locking.html)** and **versioning** of Terraform states.
