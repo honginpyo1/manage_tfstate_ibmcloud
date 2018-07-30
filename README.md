@@ -1,4 +1,4 @@
-# manage_ftstate_ibmcloud
+# manage_tfstate_ibmcloud
 
 * This repo is customized from https://github.com/l2fprod/serverless-terraform-backend
 
